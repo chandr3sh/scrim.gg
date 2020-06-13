@@ -1,0 +1,39 @@
+{
+  "name": "scrim.gg",
+  "version": "1.0.0-dev",
+  "description": "Discord bot to create scrim match",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandr3sh/scrim.gg.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "scrim"
+  ],
+  "author": "Kumar Chandresh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chandr3sh/scrim.gg/issues"
+  },
+  "homepage": "https://github.com/chandr3sh/scrim.gg#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.1.0",
+    "common-tags": "^1.8.0",
+    "discord.js": "^12.2.0",
+    "discord.js-commando": "github:discordjs/Commando",
+    "lodash": "^4.17.15",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^5.4.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "nodemon": "^2.0.4"
+  }
+}
